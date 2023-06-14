@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "hackweek-2023"
+version = "0.1.0"
+description = ""
+authors = ["Tim Cheung <tim.cheung@circleci.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.25.0"
+sagemaker = "^2.120.0"
+datasets = "^2.12.0"
+evaluate = "^0.4.0"
+transformers = "^4.30.1"
+notebook = "^6.5.4"
+ipywidgets = "^8.0.6"
+torch = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
